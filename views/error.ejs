@@ -1,0 +1,7 @@
+<% layout("/layouts/boilerplate") %>
+
+<div class="error-card">
+  <div class="error-code"><%= err.status || 500 %></div>
+  <p class="error-message"><%= err.message %></p>
+  <a href="/listings" class="btn-app btn-app-primary">Back to listings</a>
+</div>
