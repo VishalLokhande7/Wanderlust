@@ -670,3 +670,11 @@ a:hover {
     padding: 1.5rem;
   }
 }
+
+
+/* Map */
+#map{
+  height: 400px;
+  width: 900px;
+  border-radius: 1rem;
+}
