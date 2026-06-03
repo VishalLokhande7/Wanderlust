@@ -40,4 +40,18 @@ router.get(
   wrapAsync(listingController.renderEditForm)
 );
 
+router.get("/filter/:category", async (req, res) => {
+    const { category } = req.params;
+
+    let listings;
+
+    if(category === "all"){
+        listings = await Listing.find({});
+    } else {
+        listings = await Listing.find({ category });
+    }
+
+    res.json(listings);
+});
+
 module.exports = router;

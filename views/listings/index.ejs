@@ -14,21 +14,96 @@
   }
 
   .filter{
-    
+    text-align: center;
+    margin-right: 2rem;
+    margin-top: 1rem;
+    opacity: 0.8;
+  }
+
+  .filter:hover{
+    opacity: 1;
+    cursor: pointer;
+  }
+
+  .filter p{
+    font-size: 0.8rem;
+  }
+
+  .filter-link{
+    text-decoration: none;
+    color: inherit;
   }
 </style>
 
 <div id="filters">
-  <div class="filter">
-    <div><i class="fa-solid fa-fire"></i></div>
-    <p>Trending</p>
-  </div>
+  <a href="/listings" class="filter-link">
+    <div class="filter" data-category="all">
+      <div><i class="fa-solid fa-fire"></i></div>
+      <p>Trending</p>
+    </div>
+  </a>
 
-  
-  <div class="filter">
-    <div><i class="fa-solid fa-bed"></i></div>
-    <p>Rooms</p>
-  </div>
+  <a href="/listings?category=rooms" class="filter-link">
+    <div class="filter" data-category="Rooms">
+      <div><i class="fa-solid fa-bed"></i> </div>
+      <p>Rooms</p>
+    </div>
+  </a>
+
+  <a href="/listings?category=iconic+cities" class="filter-link">
+    <div class="filter" data-category="Iconic Cities">
+      <div><i class="fa-duotone fa-solid fa-mountain-city"></i></div>
+      <p>Iconic Cities</p>
+    </div>
+  </a>
+
+  <a href="/listings?category=mountains" class="filter-link">
+    <div class="filter" data-category="Mountains">
+      <div><i class="fa-duotone fa-solid fa-mountain"></i></div>    
+      <p>Mountains</p>
+    </div>
+  </a>
+
+  <a href="/listings?category=castles" class="filter-link">
+    <div class="filter" data-category="Castles">
+      <div><i class="fa-brands fa-fort-awesome"></i></div>
+      <p>Castles</p>
+    </div>
+  </a>
+
+  <a href="/listings?category=amazing+pools" class="filter-link">
+    <div class="filter" data-category="Amazing Pools">
+      <div><i class="fa-solid fa-person-swimming"></i></div>
+      <p>Amazing Pool</p>
+    </div>
+  </a>
+
+  <a href="/listings?category=camping" class="filter-link">
+    <div class="filter" data-category="Camping">
+      <div><i class="fa-solid fa-campground"></i></div>    
+      <p>Camping</p>
+    </div>
+  </a>
+
+  <a href="/listings?category=farms" class="filter-link">
+    <div class="filter" data-category="Farms">
+      <div><i class="fa-solid fa-cow"></i></div>
+      <p>Farms</p>
+    </div>
+  </a>
+
+  <a href="/listings?category=arctic" class="filter-link">
+    <div class="filter" data-category="Arctic">
+      <div><i class="fa-solid fa-snowflake"></i></div>
+      <p>Arctic</p>
+    </div>
+  </a>
+  <a href="/listings?category=beaches" class="filter-link">
+    <div class="filter" data-category="Beaches">
+      <div><i class="fa-solid fa-umbrella-beach"></i></div>
+      <p>Beaches</p>
+    </div>
+  </a>
 
 </div>
 
@@ -38,7 +113,8 @@
   <p>Discover unique places and experiences around the world.</p>
 </section>
 
-<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+<div id="listings-container"
+     class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
   <% for(let listing of listings) { %>
   <div class="col">
     <a href="/listings/<%= listing._id %>" class="listing-link">
