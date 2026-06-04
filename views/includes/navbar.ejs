@@ -1,3 +1,30 @@
+<style>
+  .search-btn{
+    background-color: #e40d54;
+    color: #fff;
+    border-radius: 25px;
+    padding: 0rem 1rem 0rem 1rem;
+  }
+
+  .search-btn:hover{
+    background-color: #e40d54;
+    color: #fff;
+  }
+
+  .search-btn i {
+    display: inline;
+    margin-right: 0.5rem;
+  }
+
+  .search-input{
+    border-radius: 25px;
+    padding: 0.5rem 3rem 0.5rem 3rem;
+    font-size: 1rem;
+  }
+
+</style>
+
+
 <nav class="navbar navbar-expand-md app-nav sticky-top">
   <div class="container-fluid">
     <a class="navbar-brand" href="/listings">
@@ -19,6 +46,12 @@
       <div class="navbar-nav">
         <a class="nav-link" href="/listings">Explore</a>
         <a class="nav-link btn-nav-cta" href="/listings/new">Add listing</a>
+      </div>
+      <div class="navbar-nav ms-auto">
+          <form class="d-flex" role="search">
+            <input class="form-control me-2 search-input" type="search" placeholder="Search destinations..." />
+            <button class="btn search-btn" type="submit"><i class="fa-solid fa-magnifying-glass"></i>Search</button>
+          </form>
       </div>
       <div class="navbar-nav ms-auto">
         <% if(!currUser){ %>

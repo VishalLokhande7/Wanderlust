@@ -8,14 +8,14 @@
   --color-surface: #ffffff;
   --color-text: #1c1917;
   --color-text-muted: #57534e;
-  --color-accent: #c45c3e;
-  --color-accent-hover: #a84d32;
+  --color-accent: #FF5A5F;
+  --color-accent-hover: #FF5A5F;
   --color-accent-soft: #fef3ef;
   --color-secondary: #5c6b5e;
   --color-border: #e7e5e4;
   --color-success: #2d5a3d;
   --color-success-bg: #ecfdf3;
-  --color-danger: #b91c1c;
+  --color-danger: #FF5A5F;
   --color-danger-bg: #fef2f2;
 
   /* Typography */
