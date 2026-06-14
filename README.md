@@ -124,19 +124,23 @@ https://wanderlust-89gl.onrender.com
 
 Add screenshots of:
 
-* Home Page : <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/d38ccf69-4eb6-46f0-acfd-fbc9d70e8091" />
+* Home Page :
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/d38ccf69-4eb6-46f0-acfd-fbc9d70e8091" />
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/399a7caa-0353-4acb-91e0-0be503526ce0" />
 
 
-* Listing Details Page : <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/d9e61ffd-66b1-4b10-b112-1a53688cf95d" />
+* Listing Details Page :
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/0d778715-2094-4b9e-accf-57fd595bdbd7" />
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/de22dcef-b4a7-489a-8b31-fd8341ca4aeb" />
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/e4fc9bad-8ede-4b83-8563-9c9161e20ed0" />
 
 
 
-* Create Listing Page : <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ac7f0f95-ecbf-472f-8a74-cb1bba208615" />
+* Create Listing Page :
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ac7f0f95-ecbf-472f-8a74-cb1bba208615" />
 
-* Login / Signup Page : <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/1921d629-91f0-4f4d-a502-bb8a983e1553" />
+* Login / Signup Page :
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/1921d629-91f0-4f4d-a502-bb8a983e1553" />
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/aafcce22-ed20-435e-b1d3-4fc68a2ebcbb" />
 
 
