@@ -115,7 +115,7 @@ nodemon app.js
 Add your deployed Render URL here:
 
 ```text
-https://your-project-name.onrender.com
+https://wanderlust-89gl.onrender.com
 ```
 
 ---
