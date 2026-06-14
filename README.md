@@ -112,7 +112,7 @@ nodemon app.js
 
 ## 🌐 Live Demo
 
-Add your deployed Render URL here:
+This is deployed Render URL :
 
 ```text
 https://wanderlust-89gl.onrender.com
@@ -122,7 +122,7 @@ https://wanderlust-89gl.onrender.com
 
 ## 📸 Screenshots
 
-Add screenshots of:
+These are the screenshots of:
 
 * Home Page :
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/d38ccf69-4eb6-46f0-acfd-fbc9d70e8091" />
